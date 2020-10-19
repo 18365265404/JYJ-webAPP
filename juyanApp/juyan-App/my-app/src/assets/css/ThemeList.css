@@ -1,0 +1,71 @@
+p{
+    margin-bottom: 0;
+    
+    font-size: 0.2rem;
+    
+}
+/* 头部搜索 */
+.themeList-head{
+    display: flex;
+    justify-content:space-between;
+    line-height: 0.8rem;
+
+    border-bottom: 1px solid #cccccc
+}
+.themeList-head>span{
+    line-height: 0.8rem;
+}
+.themeList-head>p{
+    
+    padding-left: 0.15rem;
+    
+    
+
+}
+.themeList-head>img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    margin-right: 0.15rem;
+    
+
+}
+.ThemeList-search{
+    display: none;
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 0.15rem;
+}
+.ThemeList-search2{
+    margin: 0 0.15rem;
+}
+/* 中间列表部分 */
+.ThemeList-content{
+    display: none
+    
+}
+.ThemeList-content>li{
+    border-bottom: 1px solid #cccccc
+}
+.ThemeList-content-list{
+    
+    margin: 0.15rem;
+    display: flex;
+} 
+.ThemeList-content-list>img{
+    width:1rem; 
+    height:1rem; 
+}
+.ThemeList-content-list>div{
+     
+    height:1rem; 
+    overflow: hidden;
+    flex: 1;
+    margin-left: 0.15rem;
+}
+
+.loadMore{
+    text-align: center;
+    line-height: 0.6rem;
+}

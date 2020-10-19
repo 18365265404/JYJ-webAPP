@@ -1,0 +1,52 @@
+.collectDetail{
+    background:#EEF6FC ;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* 公共标题头 */
+.public-title2{
+    display: flex;
+    height:1.17rem; 
+    background: #9b64f8;
+    
+    justify-content:space-between;
+}
+.public-title2>p{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title2>a{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title2>a>img{
+    width:0.55rem;
+}
+.public-back2{
+    height: 1.17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.public-back2>img{
+    width:0.6rem;
+}
+.public-search2>img{
+    width:0.5rem;
+}
+.public-title2>span{
+    color: white;
+    font-size: 0.48rem;
+    margin-top: 0.3rem;
+}

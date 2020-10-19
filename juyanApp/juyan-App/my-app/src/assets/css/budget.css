@@ -1,0 +1,197 @@
+.budget{
+    height: 100%;
+    width: 100%;
+    background: #f6f6f6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+
+}
+.budget-head{
+    display: flex;
+    z-index: 10000;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    padding: 0.2rem 0;
+    height: 1.2rem;
+    overflow: hidden;
+
+}
+
+
+.budget-head img:nth-child(2){
+    width: 2rem;
+    height: 0.9rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.budget-head img:nth-child(1){
+    height: 2rem;
+    width: 1.5rem;
+    margin-left: 0rem;
+}
+
+
+/* 轮播图 */
+.banner-item{
+    width: 100%;
+    height: 5rem;
+    background: #eb9ba1;
+    margin-top: 1.2rem;
+}
+/* 广告 */
+.ad{
+    height: 2rem;
+    width:100%;
+}
+.ad img{
+    height: 100%;
+    width: 100%;
+    /* border */
+}
+/* tab */
+.budget-tab{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    background: white;
+    margin-top: 0.2rem;
+}
+.budget-tab li{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+.budget-tab li img{
+     height: 0.8rem;
+     width: 0.8rem;
+}
+.budget-tab li h1{
+    font-size: 0.35rem;
+    width: 4rem;
+    color: red;
+    font-weight: 600;
+    margin-top: 0.1rem;
+
+}
+
+.budget-tab li h2{
+    font-size: 0.23rem;
+    /* margin-top: -0.2rem; */
+    width: 3rem;
+    color: #999999;
+}
+/* 按钮 */
+.btn{
+    padding: 0.05rem 0;
+    width: 9rem;
+    margin: -1rem 0.5rem;
+    display: flex;
+    background: #e72019;
+    border-radius: 0.2rem;
+}
+.img-box{
+    width: 3.4rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img-box img{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.4rem;
+    margin-top: 0.1rem;
+}
+.btn-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    
+}
+.btn-text span:nth-child(1){
+    font-size: 0.3rem;
+}
+.btn-text span:nth-child(2){
+    font-size: 0.4rem;
+}
+
+/* 表单提交 */
+.formBudget{
+    width: 10rem;
+    padding-bottom: 3rem;
+    
+    background: white;
+}
+.formBudget img{
+    width: 100%;
+    height: 2rem;
+}
+.formBudget li{
+    width: 9.4rem;
+    margin-left: 0.3rem;
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+    height: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+    position: relative;
+}
+.formBudget li h1{
+    font-size: 0.3rem;
+    line-height: 1rem;
+}
+.item-choose {
+    font-size: 0.3rem;
+    line-height: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    color: #999999;
+    position: relative;
+}
+.meceng{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: red; */
+}
+.item-choose input{
+    text-align: right;
+    min-width: 2rem;
+    width: 3rem;
+}
+.choose_list{
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 0.99rem;
+    width: 5rem;
+    border: 1px solid #cccccc;
+    padding: 0.2rem 0;
+    border-top: none;
+    background: white;
+    padding: 0 0.5rem;
+}
+.choose_list h2{
+    font-size: 0.3rem;
+    text-align: center;
+    background: #fafafa;
+}
+.choose_list h2:hover{
+    background: #ADE1f5;
+}

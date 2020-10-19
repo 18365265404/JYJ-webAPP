@@ -1,0 +1,482 @@
+
+.home{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #eef6fc;
+    
+
+}
+
+/* 头部搜索 */
+.home-head{
+    height:1.17rem; 
+    background: #9b64f8;
+    color: white;
+    
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 0.37rem;
+}
+.header>a , .head-goSearch{
+    display: flex;
+    height:1.17rem; 
+    width: '1.17rem';
+
+    flex-direction: column;
+    justify-content: center;
+}
+.head-goSearch>img{
+    width: 0.6rem;
+    height: 0.6rem;
+    display: none;
+}
+.head-headImg{
+    display: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    
+}
+
+.header-center{
+    margin-top: 0.25rem;
+    font-size: 0.35rem;
+}
+.header-center-img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.1rem;
+    
+}
+/* 头部的城市下拉 */
+.ant-popover-inner-content{
+    
+}
+
+
+
+/* 
+.home-cityList{
+    height: 1.5rem;
+    width:100%;display: inline;white-space: nowrap;overflow-x:scroll;float:left;overflow-y:hidden
+    
+}
+.home-cityList::-webkit-scrollbar {
+    display: none;
+}
+.home-cityList >li{
+    display:inline-block;
+  
+    padding-left:10px;
+   
+   
+}
+.home-cityList >li>h5{
+    border: 1px solid #cccccc;
+    text-align: center;
+    border-radius: 10%;
+    line-height: 0.8rem;
+    
+} */
+
+
+.home-cityList{
+    overflow: hidden;
+    width: 9.1rem;
+    
+    margin: 0 -0.3rem;
+    margin-right: -0.3rem
+
+    
+}
+.home-cityList >li{
+    text-align: center;
+    margin: 0 0.2rem;
+    float: left;
+    line-height: 0.8rem;
+
+}
+.home-cityList >li>h5{
+    border: 1px solid #cccccc;
+    border-radius: 10%;
+    padding: 0.2rem;
+    line-height: 0.3rem;
+}
+
+
+/* banner */
+.carousel{
+     margin-top:0.13rem 
+}
+.banner{
+    width:10rem;
+    height:5rem;
+}
+.banner>img{
+    height: 100%;
+    width: 100%;
+
+}
+/* table按钮 */
+.home-tab{
+    display: flex;
+    flex-wrap:wrap;
+     align-content:flex-start;
+
+ 
+    margin: 0.37rem;
+    margin-top: 0.2rem;
+    font-size: 0.29rem;
+    line-height: 0.66rem;
+}
+.home-tab>li{
+    width: 33%;
+    margin-top: 0.4rem;
+    text-align: center;
+    overflow: hidden
+}
+.home-tab>li>span{
+    color: #333333;
+    
+}
+.home-tab>li>a{
+    color: #333333;
+}
+.home-tab>li>a>img{
+    display: block;
+    margin: 0 auto;
+    width: 1rem;
+    height: 1rem;
+    /* border-radius: 50%; */
+}
+/* tab按钮修改 */
+.tab-box{
+    padding: 0.6rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.2rem;
+    margin-top: 0.2rem;
+    background: white;
+}
+.tab-left{
+    width: 4.8rem;
+    height: 4.5rem;
+    background: #FFF6F7;
+    margin-bottom: 0.2rem;
+    border-radius: 0.2rem;
+}
+.tab-left a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.tab-left a span{
+    
+    margin-top: 0.5rem;
+    font-size: 0.4rem;
+    line-height: 1.3rem;
+    color: #AF3F47;
+}
+.tab-left a img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.tab-right{
+    display: flex;
+    flex-direction: column;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: white;
+    margin-left: 0.2rem;
+}
+.tab-right a{
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    background: #FFF8ED;
+    padding-top: 0.3rem;
+    border-radius: 0.2rem;
+    
+}
+.tab-right a:nth-child(2){
+    margin-bottom: 0;
+}
+.tab-right a span{
+    
+    color: #AF3F47;
+    margin-left: 0.4rem;
+    margin-right: 0.2rem;
+    width: 2.2rem;
+    display: inline-block;
+    font-size: 0.4rem;
+    
+}
+.tab-right a img{
+    width: 1.5rem;
+    height: 1.5rem; 
+}
+
+/* 保障服务 */
+.home-server{
+    
+    font-size: 0.4rem;
+    margin: 0.37rem;
+    margin-top: 0.5rem;
+}
+.home-server>p{
+    line-height: 0.1rem;
+    border-left: 0.08rem solid #9b64f8;
+    line-height: 0.4rem;
+    padding-left: 10px;
+}
+.home-server-content{
+    display: flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+.home-server-content>li{
+    margin-bottom:0.26rem ;
+    width:50%;
+}
+.home-server-content>li>img{
+    width:4.493rem;
+    margin: 0 auto
+}
+/* 新品上架 */
+.home-goods{
+    font-size: 0.4rem;
+    margin: 0.37rem;
+
+    margin-top: 0.5rem;
+}
+.home-goods>p{
+    line-height: 0.1rem;
+    border-left: 0.08rem solid #9b64f8;
+    line-height: 0.4rem;
+    padding-left: 10px;
+ 
+}
+.home-goods-content{
+    
+   
+}
+.home-goods-content>li{
+    padding: 0 0.37rem;
+    height: 6.5rem;
+    background: white;
+    margin-bottom: 0.266rem;
+}
+.home-goods-content>li>p:nth-child(1){
+    line-height: 0.6rem;
+    font-size: 0.32rem;
+    color: #333333;
+    padding-top: 0.26rem;
+    margin-bottom: 0
+}
+.home-goods-content>li>p:nth-child(2){
+    line-height: 0.6rem;
+    font-size: 0.293rem;
+    color: #666666;
+    margin-bottom: 0;
+}
+.home-goods-content>li>a{
+    display: block;
+}
+.home-goods-content>li>a>img{
+    width: 8.506rem;
+    height: 4.8rem;
+}
+.home-drag{
+    position: fixed;
+    right: 0.6rem;
+    z-index: 10000;
+    bottom: 2rem;
+    
+    width: 1.3rem;
+    height: 1.3rem;
+    background-position: center center;
+    border-radius: 50%;
+    background-size: 3rem
+
+}
+.home-drag2{
+    position: fixed;
+    right: 0.6rem;
+    z-index: 10000;
+    bottom: 3.5rem;
+    font-size: 0.3rem;
+    line-height: 1.3rem;
+    width: 1.3rem;
+    text-align: center;
+    height: 1.3rem;
+    color: white;
+    background-position: center center;
+    border-radius: 50%;
+    background-size: 1.7rem
+
+}
+.home-drag3{
+    position: fixed;
+    right: 0.6rem;
+    z-index: 10000;
+    text-align: center;
+    color: white;
+    bottom: 4rem;
+    line-height: 1.3rem;
+    font-size: 0.3rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-position: center center;
+    border-radius: 50%;
+    background-size: 1.7rem
+
+}
+.home-drag>a{
+    display: block;
+    width: 100%;
+    color: white;
+    height: 100%
+}
+.home-drag2>a{
+    display: block;
+    width: 100%;
+    color: white;
+    height: 100%
+}
+.home-drag3>a{
+    display: block;
+    width: 100%;
+    color: white;
+    height: 100%
+}
+.ant-calendar-picker-container.ant-calendar-picker-container-placement-bottomLeft .ant-calendar-input-wrap {
+    display: none;
+  
+  }
+.home-custer:hover{
+    color: white
+}
+
+/* 2020/3/30新增的内容 */
+.threeTitle{
+    padding: 0.6rem 0 0.4rem 0.3rem;
+    font-size: 0.45rem;
+    color: #F15A90;
+    background: white;
+}
+.findHotel{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    padding-top: 1.5rem;
+}
+.find-item{
+    margin-top: -0.8rem;
+}
+.item-one{
+    display: flex;
+}
+.item-one h1{
+    font-size: 0.5rem;
+    height: 0.7rem;
+    width: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #F15A90;
+}
+.item-one h2{
+    font-size: 0.3rem;
+    margin-left: 0.4rem;
+    line-height: 0.7rem;
+}
+.item-date{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    
+}
+.item-date .checkbox{
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+}
+.item-two{
+    display: flex;
+}
+.item-two h1{
+    border-left:1px solid #f8a6c3 ;
+    height: 1.5rem;
+    line-height: 2rem;
+    margin-left: 0.3rem;
+}
+
+.item-two .icon{
+    font-size: 0.5rem;
+    color: #F15A90;
+    transform: scale(1.8,1) rotate(90deg);
+
+}
+.item-two input::-webkit-input-placeholder{
+    color:#F15A90
+}
+
+.ipt-box{
+    display: flex;
+    width: 8rem;
+    height: 1.2rem;
+    border: 1px solid #ec9ab7;
+    margin-left: 0.8rem;
+    border-radius: 0.15rem;
+    background: white;
+    justify-content: space-between;
+    line-height: 1.2rem;
+    font-size: 0.3rem;
+    position: relative;
+}
+.ipt-box img{
+    width: 0.8rem;
+    height:0.8rem;
+    margin:0.2rem 0.2rem 0 0;
+}
+.ipt-box span{
+    margin-left: 0.3rem;
+    color: #F15A90;
+}
+.ant-calendar-picker>div{
+    border: none;
+    outline: none;
+    outline-color: white;
+    opacity: 0;
+}
+.ipt-box .ipt-date{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    width: 96%;
+    height: 100%;
+    margin-top: 0.2rem;
+    margin-left: 2%;
+}
+.choose-item{
+    position: absolute;
+    left: 0;
+    top: 1.18rem;
+    width: 100%;
+    border: #ec9ab7 1px solid;
+    z-index: 2;
+    border-top: none;
+
+}
+.choose-item li{
+    font-size: 0.3rem;
+    background: white;
+    color: #F15A90;
+    padding-left: 0.2rem;
+    line-height: 0.8rem;
+}

@@ -1,0 +1,7 @@
+.carousel{
+  margin-top: 3.5em;
+  height:200px;
+}
+.carousel div{
+  height: inherit;
+}

@@ -1,0 +1,120 @@
+
+p{
+    margin-bottom: 0;
+}
+.public-back>img{
+    padding-left: 0.2rem;
+    height:0.4rem;
+    width:0.6rem;
+}
+.mine{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+    background: #eef6fc;
+    
+}
+.mine>header{
+    height: 4.8rem;
+    background:url("../img/mine_bg.png") no-repeat 0 0; 
+    background-size: 100%;
+}
+.mine-detail1{
+    height: 2.49rem;
+    width: 96%;
+    margin: 2%;
+    background:white;
+    display: flex;
+    margin-top: 2.0rem;
+}
+.mine-detail1>img{
+    height:2.133rem;
+    width:2.133rem;
+    border-radius: 0.2rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.mine-detail1-content{
+    margin-top: 0.626rem;
+    font-size: 0.37rem;
+    margin-left: 0.2rem;
+}
+.mine-detail1-content>p{
+    font-weight: bold
+}
+.mine-detail1-content>span{
+    line-height: 0.86rem;
+    font-size: 0.32rem;
+
+}
+
+.mine-content{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1.13rem;
+}
+.mine-content>ul{
+    background: white;
+    margin-top: 0.53rem;
+}
+.mine-content>ul>li{
+    font-size: 0.32rem;
+    display: flex;
+    height: 1.266rem;
+    border-bottom: 1px solid #eef5fd;
+    line-height: 1.2rem;
+    display: flex;
+    width: 96%;
+    margin-left: 2%;
+
+}
+.mine-content>ul>li>span{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.mine-content>ul>li>span>img{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-top: 0.50rem;
+}
+.mine-content>ul>li>img{
+    width: 0.4rem;
+    margin-top: 0.4rem;
+    margin-right: 0.2rem;
+    height: 0.4rem;
+}
+.mine-content-last{
+    font-size: 0.32rem;
+    display: flex;
+    height: 1.266rem;
+    line-height: 1.2rem;
+    background: white;
+    padding-left: 2%;
+    margin-top: -0.5rem;
+}
+.mine-content-last>img{
+    width: 0.4rem;
+    margin-top: 0.4rem;
+    margin-right: 0.2rem;
+    height: 0.4rem;
+}
+.mine-content-last>span{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.mine-content-last>span>img{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-right: 0.2rem;
+    margin-top: 0.50rem;
+}
+.avatar-uploader > .ant-upload {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+  }

@@ -1,0 +1,116 @@
+p{
+    margin-bottom: 0;
+    
+    font-size: 0.2rem;
+    
+}
+
+.themeDetail{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+   
+}
+
+/* 头部搜索 */
+.themeDetail-head{
+    display: flex;
+    justify-content:space-between;
+    line-height: 0.8rem;
+
+    border-bottom: 1px solid #cccccc
+}
+.themeDetail-head>span{
+    line-height: 0.8rem;
+}
+.themeDetail-head>p{
+    
+    padding-left: 0.15rem;
+    
+    
+
+}
+.themeDetail-head>img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    margin-right: 0.15rem;
+}
+
+/* 中间部分 */
+.themeDetail-center{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+.themeDetail-banner{
+    height: 2.5rem;
+    position: relative;
+}
+.themeDetail-banner>img{
+    width: 100%;
+    height: 100%;
+}
+.themeDetail-infor{
+    position: absolute;
+    width: 95%;
+
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    text-align: center;
+    background: #FAFAFA;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    
+}
+.themeDetail-infor>p{
+    line-height: 0.5rem;
+}
+.themeDetail-detail{
+   
+    width: 95%;
+
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.themeDetail-menue{
+    
+     width: 95%;
+
+     margin: 0 auto;
+     margin-top: 0.2rem;
+     border: 1px solid #cccccc;
+     text-align: center;
+ }
+
+ .themeDetail-bottom{
+
+     height: 0.7rem;
+     line-height: 0.7rem;
+     display: flex;
+     justify-content:space-around;
+ }
+ .themeDetail-bottom>div>span{
+     margin: 0 0.15rem;
+ }
+ .themeDetail-left{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid #cccccc;
+    background: white;
+ }
+ .themeDetail-right{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid #cccccc;
+    background: #FAFAFA
+ }

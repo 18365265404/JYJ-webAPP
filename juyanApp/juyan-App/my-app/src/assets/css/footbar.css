@@ -1,0 +1,24 @@
+.foot-btn{display: none; position: fixed;left: 0;bottom: 0; width:100%;height:1rem; background:#fff; border-top:1px solid #9e9a95;}
+.foot-btn>ul{
+    display: flex;
+    justify-content:space-around;
+}
+.foot-btn>ul>li{
+    height: 1rem;
+    width: 100%;
+}
+.foot-btn>ul>li>a{
+    display: block;
+    text-align: center;
+    line-height: 1rem;
+}
+.foot-btn>ul>li> .home1{
+    color: red
+}
+.foot-btn>ul>li> .write1{
+    color: red
+}
+.foot-btn>ul>li> .my1{
+    color: red
+}
+

@@ -1,0 +1,164 @@
+
+p{
+    margin-bottom: 0;
+}
+.weFlowerDetail{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+    background: #eef6fc;
+    
+}
+.weFlowerDetail-head{
+    height: 5.5rem;
+    position: relative;
+    background-size: 100% 100%;
+}
+.weFlowerDetail-head>p{
+    overflow: hidden;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    margin-left: 0;
+    height:1.17rem; 
+    
+    width: 1rem;
+}
+.weFlowerDetail-head>p>img{
+    width:0.8rem;
+}
+.weFlowerDetail-content{
+    position: absolute;
+    top: 3.46rem;
+    left: 0;
+    right: 0;
+    width: 9.25rem;;
+    margin: 0 auto;
+    background: white;
+    padding-bottom: 1rem;
+
+}
+.weFlowerDetail-content>p:nth-child(1){
+    margin-top: 0.8rem;
+    color: #333333;
+    font-size: 0.37rem;
+    margin-left: 0.333rem;
+}
+.weFlowerDetail-content>p:nth-child(1)>span{
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+    color: #9F6Df7
+}
+.star-line{
+    display: flex;
+}
+.star-line>ul{
+    display: flex;
+    font-size: 0.4rem;
+    margin-left: 0.333rem;
+}
+.star-line>ul>li{
+
+
+}
+.star-line>ul>li>img{
+    width: 0.33rem;
+    height: 0.33rem;
+    margin-right: 0.133rem;
+}
+.star-line>span{
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.8rem;
+    margin-left: 0.2rem;
+}
+.weFlowerDetail-content-p1{
+    font-size: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.86rem;
+
+    margin-left: 0.333rem;
+    margin-right: 0.333rem;
+    align-items: center; /*定义body的元素垂直居中*/
+
+    
+}
+
+.weFlowerDetail-content-p1>img{
+    width: 0.33rem;
+    height: 0.33rem;
+    
+
+}
+
+.am-tabs-default-bar-content{
+    background: #eef6fc;
+    border: none
+}
+.weFlowerDetail-intr{
+    flex: 1;
+    width:9.25rem;
+    margin:  0 auto;
+    margin-top: 3.8rem;
+    overflow-y: auto
+}
+.weFlowerDetail-intr1{
+    width:9.25rem;
+    
+}
+.weFlowerDetail-intr1>li{
+    margin-bottom: 0.2rem;
+    width:9.25rem;
+    
+}
+weFlowerDetail-intr1>li:last-child{
+    margin-bottom: -1rem;;
+}
+.weFlowerDetail-intr1>li>img{
+    width: 100%;
+}
+.detail-foot{
+    width: 100%;
+
+    height: 1.25rem;
+
+
+}
+.detail-foot>ul{
+    display: flex;
+    justify-content: space-between;
+    margin:0  0.333rem;
+    margin-right: 0.333rem;
+    font-size: 0.32rem;
+}
+.detail-foot>ul>li{
+
+    width: 1.33rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1.25rem;
+    margin-top: 0.2rem;
+
+}
+.detail-foot>ul>li>img{
+    width: 0.6rem;
+    height: 0.55rem;
+   
+    margin: 0 auto;
+}
+.detail-foot>ul>li:nth-child(4){
+    width: 4.5rem;
+    height: 0.8rem;
+    background: #9b64f8;
+    border-radius: 0.16rem;
+    margin-top: 0.2rem;
+    font-size: 0.32rem;
+    color: white;
+    justify-content: space-around;
+    
+    
+}

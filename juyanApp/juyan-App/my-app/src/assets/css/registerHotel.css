@@ -1,0 +1,146 @@
+
+		
+		.login2{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background: #EEF6FC;
+		}
+
+
+		.header-bg2{
+			background:url("../img/login_bg.png") no-repeat 0 0; 
+			height: 9rem;
+			width: 100%;
+			position: relative;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+
+        /* .header-logo>img{
+			margin-top: 1.7rem;
+			margin-left: 4rem;
+			width: 1.5rem;
+			height: 1.5rem;
+		} */
+
+		.content2{
+            position: relative; 
+		}
+
+		.formData2 {
+            height: 6.5rem;
+			background: white;
+            width: 9rem;    
+			position: absolute;
+			top: 6rem;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+	
+		.account2 {
+			margin-top: 0.80rem;
+			height:0.93rem;
+			font-size: 0.3rem;
+			padding-left: 0.1rem;
+			background: #F6F1fE;
+			border-radius: 0.2rem;
+			width: 8.5rem;
+			color: #819FFC;
+			border: hidden;
+            line-height: 0.93rem;
+		}
+		.city2{
+			margin-top: 0.2rem;
+			height:0.93rem;
+			font-size: 0.3rem;
+			padding-left: 0.1rem;
+			background: #F6F1fE;
+			border-radius: 0.2rem;
+			width: 8.5rem;
+			color: #819FFC;
+			border: hidden;
+            line-height: 0.93rem;
+		}
+		.hotel2{
+			margin-top: 0.2rem;
+			height:0.93rem;
+			font-size: 0.3rem;
+			padding-left: 0.1rem;
+			background: #F6F1fE;
+			border-radius: 0.2rem;
+			width: 8.5rem;
+			color: #819FFC;
+			border: hidden;
+            line-height: 0.93rem;
+		}
+		
+		.password2{
+			margin-top: 0.2rem;
+			height:0.93rem;
+			font-size: 0.3rem;
+			padding-left: 0.1rem;
+			background: #F6F1fE;
+			border-radius: 0.2rem;
+			width: 8.5rem;
+			color: #819FFC;
+			border: hidden;
+			margin-left: 0.1rem;
+			margin-right: 0.1rem;
+			line-height: 0.93rem;
+		}
+		
+		.account2>img,.city2>img,.hotel2>img,.password2>img{
+			width: 0.45rem;
+			height: 0.45rem;
+			margin-right: 0.2rem;
+		}
+
+		.else2 {
+			display: flex;
+			flex-direction: row;
+			align-items: baseline;
+			justify-content: space-between;
+			height: 1rem;
+			margin-top: 0.4rem;
+			margin-left: 1rem;
+			margin-right: 1rem;
+			width: 8.5rem;
+		}
+		
+		.else2 span:nth-child(1) {
+			font-size: 0.25rem;
+		}
+		
+		.else2 span:nth-child(2) {
+			font-size: 0.25rem;
+		}
+
+		.login-clu6{
+	
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			width: 100%;
+
+		}
+		
+		.loginSubmit6 {
+			height:0.93rem;
+			color: white;
+			font-size: 0.35rem;
+			background: #9B64F8;
+			border-radius: 0.2rem;
+			width: 8.5rem;
+			margin: 0 auto;
+			border: hidden;
+			margin-top:4rem;
+			margin-left: 0.7rem;
+		}

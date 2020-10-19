@@ -1,0 +1,95 @@
+/* 头部 */
+.gift{
+    height: 100%;
+    width: 100%;
+    background: #f6f6f6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+
+}
+.gift-head{
+    display: flex;
+    z-index: 10000;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    background: white;
+    position: fixed;
+    height: 1.2rem;
+    align-items: center;
+    left: 0;
+    top: 0;
+
+}
+
+.gift-head img:nth-child(2){
+    width: 2rem;
+    height: 0.9rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.gift-head img:nth-child(1){
+    height: 2rem;
+    width: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+
+
+/* banner图 */
+.gift-img{
+    width: 10rem;
+    height: 8rem;
+    margin-top: 1.2rem;
+}
+.gift-img img{
+    width: 10rem;
+    height: 8rem;
+}
+
+/* gift内容 */
+.gift-content{
+    padding: 0.3rem 0 1rem 0;
+    background: white;
+}
+.gift-detail{
+    width: 9rem;
+    height: 3rem;
+    border: 0.2rem solid #fffef2;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0;
+    margin-left: 0.5rem;
+}
+.gift-detail h1{
+    font-size: 0.36rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #f15a9d;
+}
+.gift-detail h2{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #666666;
+}
+/* 表单提交 */
+.gift-titel{
+    font-size: 0.3rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+}
+.gift-ipt{
+    border: 1px solid #cccccc;
+    border-radius: 0.15rem;
+    width: 9rem;
+    margin-left: 0.5rem;
+    font-size: 0.3rem;
+    padding: 0.3rem 0.2rem;
+    margin-top: 0.3rem;
+}
+.gift-ipt input{
+    width: 100%;
+    text-align: center;
+}

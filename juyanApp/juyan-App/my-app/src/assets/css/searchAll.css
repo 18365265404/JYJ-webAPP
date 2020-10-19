@@ -1,0 +1,110 @@
+.searchAll{
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #eef6fc;
+    overflow-y: auto
+}
+
+/* 公共标题头 */
+.public-title{
+    display: flex;
+    height:1.17rem; 
+    background: #9b64f8;
+    justify-content:space-between;
+}
+.public-title>p{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+
+.public-back>img{
+    width:0.6rem;
+}
+
+
+/* 内容部分 */
+.searchAll-content{
+    margin: 0 0.46rem;
+}
+.searchAll-hot{
+    margin-top: 0.15rem;
+    font-size: 0.4rem;
+    height: 3rem;
+    margin-bottom: 0;
+
+}
+.searchAll-hot>p{
+    color: #333333;
+    margin-bottom: 0;
+    border-left: 0.08rem solid #9b64f8;
+    line-height: 0.45rem;
+    margin-left: 0.1rem;
+    margin-top: 0.53rem;
+    padding-left: 0.15rem;
+
+    display: flex;
+    justify-content:space-between;
+}
+.searchAll-hot>ul{
+    display: flex;
+    flex-wrap:wrap;
+
+    width: 100%;
+    
+}
+.searchAll-hot>ul>li{
+    line-height: 0.4rem;
+    border-radius: 0.16rem;
+    width: 23%;
+    height: 0.666rem;
+    line-height: 0.666rem;
+    margin: 0 1%;
+    background: white;
+    margin-top: 0.4rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.searchAll-record{
+    font-size: 0.4rem;
+}
+
+.searchAll-record>p{
+    color: #333333;
+    margin-bottom: 0;
+    border-left: 0.08rem solid #9b64f8;
+    line-height: 0.45rem;
+    margin-left: 0.1rem;
+    margin-top: 0.53rem;
+    padding-left: 0.15rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.searchAll-record>ul{
+    display: flex;
+    flex-wrap:wrap;
+
+    width: 100%;
+    
+}
+.searchAll-record>ul>li{
+    line-height: 0.4rem;
+    border-radius: 0.16rem;
+    width: 23%;
+    height: 0.666rem;
+    line-height: 0.666rem;
+    margin: 0 1%;
+    background: white;
+    margin-top: 0.4rem;
+    text-align: center;
+
+}
+

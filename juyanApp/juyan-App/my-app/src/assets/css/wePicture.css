@@ -1,0 +1,153 @@
+.wePicture{
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #eef6fc;
+    overflow-y: auto
+}
+/* 公共标题头 */
+.public-title2{
+    display: flex;
+    height:1.17rem; 
+    background: #9b64f8;
+    justify-content:space-between;
+}
+.public-title2>p{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title2>a{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title2>a>img{
+    width:0.55rem;
+}
+.public-back2{
+    height: 1.17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.public-back2>img{
+    width:0.6rem;
+}
+.public-search2>img{
+    width:0.5rem;
+}
+.public-title2>span{
+    color: white;
+    font-size: 0.48rem;
+    margin-top: 0.3rem;
+}
+
+/* select部分 */
+.ThemeList-search{
+    margin-top:0rem;
+}
+
+/* 没有数据的时候显示 */
+.wePicture-content-list{
+    position: relative;
+ 
+}
+.noDataShow{
+
+    width: 100%;
+    height: 7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #eef6fc;
+    text-align: center;
+    
+}
+.noDataShow>p{
+    margin-top: 5rem;
+}
+/* 列表部分 */
+.wePicture-list{
+   
+}
+.wePicture-list>li{
+
+}
+.wePicture-list>li>a{
+    overflow: hidden;
+    display: block;
+    background: white;
+    margin: 0.37rem;
+    margin-bottom: 0;
+
+    padding-bottom: 0.4rem;
+}
+.wePicture-list>li>a>p:nth-child(1){
+    padding-top: 0.4rem;
+    margin-left: 0.2rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #333333
+}
+.wePicture-list>li>a>p:nth-child(2){
+    margin-top: 0.22rem;
+    margin-left: 0.2rem;
+    font-size: 0.32rem;
+    color: #666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.wePicture-list p{
+    margin-bottom: 0
+}
+.wePicture-list>li>a>img{
+    width: 8.76rem;
+    height: 4.8rem;
+    border-radius: 0.2rem;
+    margin-left: 0.20rem;
+  
+
+}
+.wePicture-list-detail{
+    margin-left: 0.4rem;
+}
+.wePicture-list-detail>p:nth-child(1){
+    font-size: 0.37rem;
+    margin-top: 0.2rem;
+    color: #333333;
+}
+.wePicture-list-detail>p:nth-child(2){
+    font-size: 0.32rem;
+    margin-top: 0.26rem;
+    color: #666666;
+}
+.wePicture-list-infor{
+    margin-top: 0.26rem;
+    display: flex;
+    
+}
+.wePicture-list-infor>li{
+    font-size: 0.29rem;
+    padding: 0 0.2rem;
+    border: 1px solid #9b64f8;
+    border-radius: 0.1rem;
+    margin-right: 0.2rem;
+}
+.loadMore{
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.4rem;
+    margin-top: 0.47rem;
+}

@@ -1,0 +1,52 @@
+.questionnaire{
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: #eef6fc;
+    overflow-y: auto
+}
+/* 公共标题头 */
+.public-title{
+    display: flex;
+    height:1.17rem; 
+    background: #9b64f8;
+    justify-content:space-between;
+}
+.public-title>p{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title>a{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+    padding: 0 0.37rem;
+}
+.public-title>a>img{
+    width:0.55rem;
+}
+.public-back{
+    height: 1.17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.public-back>img{
+    width:0.6rem;
+}
+.public-search>img{
+    width:0.5rem;
+}
+.public-title>span{
+    color: white;
+    font-size: 0.48rem;
+    margin-top: 0.3rem;
+}
